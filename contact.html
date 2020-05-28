@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+	<nav>
+		<h1>My Portfolio</h1>
+
+		<ul class="navbar">
+			<li><a href="About_me.html">About me</a></li>
+			<li><a href="hobbies.html">My hobbies</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="wrapper">
+		<p>Fill out the form in order to contact us:</p>
+		<fieldset>
+			<legend>Your contact information</legend>
+			<div class="fieldflex">
+
+				<lable for="name">Your name </lable>
+				<input type="text" id="name" name="name">
+			</div>
+			<div class="fieldflex">
+
+				<lable for="phone">Phone number</lable>
+				<input type="tel" id="phone" name="phone" placeholder="Don't forget your area code!">
+			</div>
+			<div class="fieldflex">
+
+				<lable for="email">Email</lable>
+				<input type="email" id="email" name="email">
+			</div>
+
+			<lable for="comments">Any requests:</lable>
+			<textarea id="comments" name="comments"></textarea>
+			<lable>
+				<input type="checkbox" value="subscribe" name="subscribe" id="subscribe" checked>Add me to your
+				email list!
+			</lable>
+			<button type="submit">Submit</button>
+		</fieldset>
+	</div>
+
+</body>
+
+</html>

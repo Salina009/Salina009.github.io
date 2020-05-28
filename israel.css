@@ -1,0 +1,26 @@
+body{
+    font-size: 20px;
+    font-family: 'Fondamento', cursive;
+    background-image: radial-gradient( blue, pink);
+}
+img{
+    border: 5px solid  blue;
+    height:30rem;
+    width: auto;
+
+}
+.one{
+    color: rgb(95, 25, 25);
+    
+}
+.two{
+    color:navy;
+}
+.three{
+    color: rgb(17, 17, 37);
+}
+.green{
+    color: rgb(51, 146, 124);
+    text-decoration: underline;
+}
+

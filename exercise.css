@@ -1,0 +1,48 @@
+.floatleft{
+    float:left;
+    /*TRBL*/
+    margin:0 1rem 1rem 0;
+  }
+  .floatright{
+    float:right;
+  }
+  p{
+   font-weight:bold;
+   }
+  body{
+    background-color: rgb(51, 146, 124);
+    width:70rem;
+    margin:0 auto;
+  }
+  img{
+    height:10rem;
+    width:10rem;
+    margin-top:-3rem;
+  }
+  
+  .box1{
+    border:0.5rem solid white;
+    font-size:20px;
+    margin-top:10px;
+    padding: 1rem;
+    border-radius:1rem;
+    
+  }
+  .box1:after{
+    content:"";
+    display:table;
+    clear:both;
+  }
+  .box2{
+    border:0.5rem solid rgb(10, 44, 36);
+    text-decoration:underline;
+    text-align:center;
+    color: rgb(10, 44, 36);
+    border-radius:1rem;
+    
+  }
+  a:hover{
+    background-color:white;
+  }
+  
+  

@@ -1,0 +1,19 @@
+ div{
+     padding:50px;
+ }
+ img{
+     height:300px;
+     width:350px;
+     border: 5px solid  rgb(13, 33, 83);
+    }
+ 
+ .text_image{
+     display:flex;
+     align-items: center;
+ }
+ h4, strong{
+     color: rgb(13, 33, 83);
+ }
+ h4{
+     text-decoration: underline;
+ }
